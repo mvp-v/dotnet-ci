@@ -15,5 +15,12 @@ namespace NUnitTestProject1
         {
             Assert.AreEqual(testci.TestMe.Summ(3, 6), 9);
         }
+
+
+        [Test]
+        public void Test2()
+        {
+            Assert.AreEqual(testci.TestMe.Summ(-4, 4), 0);
+        }
     }
 }
